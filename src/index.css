@@ -38,7 +38,7 @@ a:hover {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  color: rgb(116, 23, 23); /* White text color for headings */
+  color: white; /* White text color for headings */
   font-weight: bold;
 }
 
@@ -90,6 +90,7 @@ button.plus, button.minus {
   font-size: 1.5em; /* Increase the symbol size */
   color: black;
 }
+
 
 
 
