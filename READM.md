@@ -1,7 +1,7 @@
 # Candidate Search
 
 ## Live Demo
-Check out the live version of the portfolio:
+Check out the live version of the portfolio: https://fantastic-candidate.netlify.app/ 
 
 ## Description
 Candidate Search is a web application that allows users to search for candidates on GitHub using the GitHub API. Users can view candidate information such as username, location, email, company, and bio. The application allows users to save candidates they like and reject others. It features a simple user interface with buttons for saving and rejecting candidates.
