@@ -1,0 +1,87 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%; /* Make sure the page container takes full width */
+  }
+  
+  .candidateBox {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 0; /* Removed padding around container */
+    width: 300px; /* Width of the container */
+    margin: 20px auto; /* Center the container */
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+  }
+  
+  .section {
+    width: 100%; /* Ensure sections fill the entire width */
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Make sure padding is included in width calculation */
+  }
+  
+  .candidateBox .section:first-child {
+    background-color: white;
+    color: black; /* Text is black on white background */
+  }
+  
+  .candidateBox .section:nth-child(2) {
+    background-color: black;
+    color: white; /* Text is white on black background */
+  }
+  
+
+
+/* button*/
+  
+  .buttonBox {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly; /* Even space between buttons */
+    align-items: center;
+    padding: 10px;
+    width: 100%; /* Ensure the button section spans full width */
+  }
+  
+  button {
+    border-radius: 50%;
+    border: 2px solid transparent;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.25s, transform 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  .plus {
+    background-color: green;
+    color: black;
+  }
+  
+  .plus:hover {
+    background-color: #4CAF50;
+  }
+  
+  .minus {
+    background-color: red;
+    color: black;
+  }
+  
+  .minus:hover {
+    background-color: #f44336;
+  }
+  

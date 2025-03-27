@@ -1,0 +1,25 @@
+.nav {
+  background-color: #f8f9fa;
+  padding: 10px;
+  position: relative;
+  top: -20px; /* Moves the navbar slightly higher */
+  z-index: 1;
+}
+
+  .nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    margin-right: 20px; /* Adds spacing between links */
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
